@@ -164,6 +164,19 @@ video{
     font-size: 5em;
 }
 
+/*Novedades pic*/
+.leyendoComic{
+    width: 100%;
+}
+
+.imgComic{
+    height: 100vh;
+    width: 100%;
+    position: static;
+    overflow: hidden;
+    top: 0;
+}
+
 /*encontranos*/
 
 .encontranos{
@@ -227,7 +240,18 @@ video{
     margin-top: 50px;
 }
 
+/* comics */
 
+
+.sandman{
+    margin: 20px auto;
+    width: 20%;
+}
+.sandman img{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
 
 
 
