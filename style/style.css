@@ -7,34 +7,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 :root {
     --main-color: #fd4646;
     --text-color: #171427;
     --bg-color-2: #fff;
 }
+
 .body{
     background-color:#339EC7 ;
 }
+
 main{
     width: 100%;
     position: static;
     overflow: hidden;
 }
+
 .texto-introductorio{
     font-size: 2em;
     margin-top: 50px;
     margin-right: 80px;
     margin-left: 80px;
 }
+
 .recomendados{
     margin-top: 50px;
     width: 100%;
 }
+
 .recomendados h2{
     padding-left: 72px;
     font-size: 3em;
     margin-top: 50px;
 }
+
 .comicsConteinerMarvel{
     margin-top: 50px;
     display: flex;
@@ -61,7 +68,6 @@ main{
 
 }
 
-
 .batman, .flash, .watchmen, .superman{
     margin: 20px auto;
     width: 20%;
@@ -71,4 +77,39 @@ main{
     position: relative;
     overflow: hidden;
     width: 100%;    
+}
+.trailer{
+    margin-top: 50px;
+    width: 100%;
+
+}
+
+.trailer h2{
+    padding-left: 72px;
+    font-size: 3em;
+    margin-bottom: 50px;
+}
+
+.trailer-border{
+    padding: 10px;
+    border-radius: 50px;
+    margin-left: 310px;
+    margin-right: 310px;
+}
+
+.trailerUno{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spawn, .hellboy, .tortugas, .quinn, .avenger, .xmen, .deadpool, .star-wars{
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.trailerDos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
