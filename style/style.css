@@ -136,7 +136,7 @@ main{
 }
 
 
-.videoIndex{
+.videoIndex, .carroComic{
     width: 100%;
     height: 100vh;
     position: static;
