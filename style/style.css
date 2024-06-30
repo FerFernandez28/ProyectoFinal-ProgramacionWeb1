@@ -30,6 +30,13 @@ main{
     margin-right: 80px;
     margin-left: 80px;
 }
+.texto-introductorio2{
+    font-size: 2em;
+    margin-top: 50px;
+    margin-right: 80px;
+    margin-left: 80px;
+    padding-top: 50px;
+}
 
 .recomendados{
     margin-top: 50px;
@@ -81,33 +88,30 @@ main{
 .trailer{
     margin-top: 50px;
     width: 100%;
-
 }
-
 .trailer h2{
     padding-left: 72px;
     font-size: 3em;
     margin-bottom: 50px;
 }
-
 .trailer-border{
     padding: 10px;
     border-radius: 50px;
     margin-left: 310px;
     margin-right: 310px;
+    /*border: 3px solid black;
+    width: 70%;
+    margin: 0 auto;*/
 }
-
 .trailerUno{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-.spawn, .hellboy, .tortugas, .quinn, .avenger, .xmen, .deadpool, .star-wars{
+.trailer-1, .trailer-2, .trailer-3, .trailer-4, .trailer-5, .trailer-6, .trailer-7, .trailer-8{
     padding: 10px;
     border-radius: 50px;
 }
-
 .trailerDos{
     display: flex;
     align-items: center;
