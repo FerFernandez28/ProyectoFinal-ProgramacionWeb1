@@ -12,3 +12,133 @@
     --text-color: #171427;
     --bg-color-2: #fff;
 }
+
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s;
+    padding: 30px 20px;
+    z-index: 10;
+}
+
+
+
+header .azul{
+    color: #339EC7;
+}
+
+header .amarillo{
+   color: #F2B705; 
+}
+
+header .blanco{
+    color: white;
+}
+
+header .rojo{
+    color: #E82A00;
+}
+
+header.abajo{
+    background:#ffffff;
+    padding: 15px 20px;
+    
+}
+
+header .logo{
+    position: relative;
+    font-weight: bold;
+    font-size: 4em;
+    letter-spacing: 2px;
+    transition: 1.5s;
+    text-decoration: none;
+}
+
+ 
+
+.logo{
+    position: relative;
+    color: white;
+    font-weight: bold;
+    font-size: 12em;
+    letter-spacing: 2px;
+    transition: 1.5s;
+    text-decoration: none;
+}
+
+.nosotrosHeader .logo{
+    color: #121212;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+header ul li{
+    list-style: none;
+}
+
+header ul li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: 0.7s;
+    color: white;
+}
+
+
+
+a:hover{
+    color: #E82A00;
+    transition: none;
+}
+
+.starwars a:hover{
+    color: #F2B705;
+    transition: none;
+}
+
+header.abajo ul li a{
+    color: rgb(0, 0, 0);
+}
+
+header.abajo .blanco{
+    color: rgb(0, 0, 0);
+}
+
+.header-2{
+    background:#ffffff;
+    padding: 15px 20px;
+}
+.header-2 ul li a{
+    color: rgb(0, 0, 0);
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+    position: static;
+    overflow: hidden;
+    top: 0;
+}
+
+video{
+    width: 100%;
+}
