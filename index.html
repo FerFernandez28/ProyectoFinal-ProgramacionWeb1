@@ -3,10 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"/>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="img/icono-pestaña.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
+      rel="stylesheet"/>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.10/dist/sweetalert2.all.min.js"></script>
     <link rel="stylesheet" href="./style/style.css">
     <title>ComicVerse | Página oficial</title>
 </head>
-<body>
+<body class="body">
     <!--Header y NAV-->
     <header>
         <h1>hola</h1>
@@ -14,14 +27,112 @@
     <!--Main-->
     <main>
     <!--Article-->
+    <!--Texto introductorio-->
         <article class="texto-introductorio">
             <p>¡Bienvenidos a ComicVerse, el universo donde la imaginación cobra vida en viñetas y superhéroes emergen de las sombras! Sumérgete con nosotros en un viaje a través de mundos fantásticos, donde héroes y villanos dan forma a historias épicas llenas de acción, misterio y poderes extraordinarios. Prepárate para explorar un cosmos de cómics donde cada página es un portal hacia aventuras inesperadas y emocionantes. ¡Únete a nuestra comunidad y descubre el arte de contar historias a través del increíble mundo del cómic!</p>
           </article>
-          
+    <!--Cards-->
+          <article class="recomendados">
+            <h2 class="titulo-comics">Algunos de nuestros cómics más recomendados...</h2>
+            <section class="comicsConteinerMarvel">
+              <div class="card text-center leyendaViviente" >
+                <img src="./img/Capitan_America_1.jpg"  class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Capitan America: La leyenda viviente</h5>
+                  <p class="card-text">
+                    Un imprescindible y gigantesco volumen que contiene las primeras
+                    aventuras del Capitán América en la actualidad, desarrolladas por el
+                    inigualable equipo creativo de Stan Lee y Jack Kirby.
+                  </p>
+                  <a href="https://www.buscalibre.com.ar/libro-capitan-america-la-leyenda-viviente/9788498856842/p/4845326" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+              <div class="card text-center thorHulk" >
+                <img src="./img/Hulk_Thor.webp"  class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Hulk y Thor: campeones del universo</h5>
+                  <p class="card-text">
+                    ¿Quién es el más fuerte de nuestro planeta, Thor o Hulk? Nos lo hemos preguntado en muchas ocasiones, y ahora el vengador de Asgard y el Goliat Esmeralda tendrán que descubrirlo por ellos mismos.
+                  </p>
+                  <a href="https://www.crossover-comics.com/productos/colecc-100-marvel-thor-vs-hulk-campeones-del-universo/" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+              <div class="card text-center punisher">
+                <img src="./img/punisher-max.jpg"  class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">The Punisher de Garth Ennis</h5>
+                  <p class="card-text">
+                    Marvel continúa trayendo a los grandes autores que levantaron sus franquicias en nuevos proyectos, y en esta ocasión se trata nada menos que de Garth Ennis con su Punisher.
+                  </p>
+                  <a href="https://stores.comichub.com/comics_conspiracy/products/the-punisher-6" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+              <div class="card text-center vision" >
+                <img src="./img/vision-tom-king.jpg"  class="card-img-top"  alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Vision de Tom King</h5>
+                  <p class="card-text">
+                    Visión quiere ser humano. ¿Y qué hay más humano que la familia? Ahora, la tiene. Una mujer y dos hijos. Se parecen a él, tienen sus poderes y la necesidad de confundirse con los demás. ¿Qué puede ir mal?
+                  </p>
+                  <a href="https://www.mercadolibre.com.ar/la-vision-vol2-de-tom-king-editorial-panini-tapa-dura-en-espanol-2016/p/MLA25782704#searchVariation=MLA25782704&position=5&search_layout=stack&type=product&tracking_id=d14450c8-ec94-42fc-8285-942d8429fc8e" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+        
+            </section>
+            <section class="comicsConteinerDC">
+              <div class="card text-center batman" >
+                <img src="img/batman-broma-asesina.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Batman: la broma asesina</h5>
+                  <p class="card-text">
+                    Un mal día. De acuerdo con el motor de locura y caos conocido como el Joker, eso es todo lo que separa a los sanos de los psicóticos. Alan Moore y Brian Bolland asumieron hace 30 años el origen del mejor supervillano de los cómics.
+                  </p>
+                  <a href="https://www.ovnipress.net/productos/batman-la-broma-asesina/" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+        
+              <div class="card text-center flash" >
+                <img src="img/flashpoint.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Flashpoint</h5>
+                  <p class="card-text">
+                  Flash es el hombre más rápido del mundo, pero este no es su mundo. La historia ha cambiado y una nueva realidad ha reemplazado a la suya. Su madre está viva, sus seres queridos son extraños y sus amigos cercanos han cambiado, se han ido o peor.
+                  </p>
+                  <a href="https://www.ovnipress.net/productos/flashpoint-absoluto/" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+              <div class="card text-center watchmen" >
+                <img src="img/watchmen.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Watchmen</h5>
+                  <p class="card-text">
+                    A mediados de los ochenta, Alan Moore y Dave Gibbons crearon WATCHMEN, cambiando el curso de la historia de los cómics. Popularmente citado como el punto donde el género de superhéroes alcanzó su madurez, ganando múltiples premios.
+                  </p>
+                  <a href="https://www.ovnipress.net/productos/watchmen1/" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+              <div class="card text-center superman" >
+                <img src="img/muerte-superman.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">La muerte de Superman</h5>
+                  <p class="card-text">
+                    Doomsday ha aterrizado en la Tierra. La Liga de la Justicia hizo un valiente y desesperado intento por detenerlo, pero cuando la bestia se acercó a Metrópolis fue Superman quien respondió a la llamada para enfrentarlo y derrotarlo, sin saber lo que venía.
+                  </p>
+                  <a href="https://www.ovnipress.net/productos/la-muerte-de-superman1/" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+            </section>
+        </article>
     </main>
     <footer>
 
     </footer>
     <script src="./main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"></script>
 </body>
 </html>
