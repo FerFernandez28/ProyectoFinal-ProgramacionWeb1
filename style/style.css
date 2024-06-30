@@ -16,10 +16,6 @@
     --bg-color-3: #33383b;
 }
 
-.bodyNosotros{
-    background-color: #000000;
-}
-
 /*header*/
 .bodyNosotros{
     background-color: #000000;
@@ -133,8 +129,16 @@ header.abajo .blanco{
 }
 
 main{
-    height: 100vh;
     width: 100%;
+    position: static;
+    overflow: hidden;
+    top: 0;
+}
+
+
+.videoIndex{
+    width: 100%;
+    height: 100vh;
     position: static;
     overflow: hidden;
     top: 0;
@@ -143,38 +147,37 @@ main{
 video{
     width: 100%;
 }
-
-
-.capa-negra {
+  
+.contenido{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Capa negra semitransparente */
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
 
-.capa-negra p{
+.capa-negrap{
     color: white;
     padding: 20px;
     font-size: 5em;
 }
 
+
 /*Novedades pic*/
-.leyendoComic{
+
+  .leyendoComic {
     width: 100%;
+
 }
 
 .imgComic{
     height: 100vh;
     width: 100%;
-    position: static;
-    overflow: hidden;
-    top: 0;
+
 }
 
 /*encontranos*/
