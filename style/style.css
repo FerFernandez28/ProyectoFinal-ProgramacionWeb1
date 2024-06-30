@@ -13,6 +13,15 @@
     --bg-color-2: #fff;
 }
 
+.bodyNosotros{
+    background-color: #000000;
+}
+
+/*header*/
+.bodyNosotros{
+    background-color: #000000;
+}
+
 
 header{
     position: fixed;
@@ -24,18 +33,13 @@ header{
     transition: 0.7s;
     padding: 30px 20px;
     z-index: 10;
+    font-family: 'Oswald', 'Arial Narrow', Arial, sans-serif;
 }
+
+
 
 header .azul{
     color: #339EC7;
-}
-
-header .amarillo{
-   color: #F2B705; 
-}
-
-header .blanco{
-    color: white;
 }
 
 header .rojo{
@@ -108,10 +112,6 @@ a:hover{
     transition: none;
 }
 
-.starwars a:hover{
-    color: #F2B705;
-    transition: none;
-}
 
 header.abajo ul li a{
     color: rgb(0, 0, 0);
@@ -139,6 +139,60 @@ main{
 
 video{
     width: 100%;
+}
+
+
+.capa-negra {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Capa negra semitransparente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.capa-negra p{
+    color: white;
+    padding: 20px;
+    font-size: 5em;
+}
+
+/*encontranos*/
+
+.encontranos{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.mapa{
+    width: 80%;
+}
+
+
+.capa-negra {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Capa negra semitransparente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.capa-negra p{
+    color: white;
+    padding: 20px;
+    font-size: 5em;
 }
 
 
