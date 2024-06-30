@@ -4,7 +4,7 @@
 
 /* normalizer and root */
 *{
-    font-family: 'Oswald', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Bangers", system-ui;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,12 +15,11 @@
     --bg-color-2: #3F71EA;
     --bg-color-3: #33383b;
 }
-
-.bodyNosotros{
-    background-color: #000000;
+.body{
+    background-color:#339EC7 ;
 }
 
-/*header*/
+/*Header*/
 .bodyNosotros{
     background-color: #000000;
 }
@@ -132,37 +131,111 @@ header.abajo .blanco{
     color: rgb(0, 0, 0);
 }
 
-main{
-    height: 100vh;
-    width: 100%;
-    position: static;
-    overflow: hidden;
-    top: 0;
-}
-
 video{
     width: 100%;
 }
 
-
-.capa-negra {
-    position: absolute;
-    top: 0;
-    left: 0;
+main{
     width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Capa negra semitransparente */
+    position: static;
+    overflow: hidden;
+}
+
+/*Cómics recomendados*/
+.texto-introductorio{
+    font-size: 2em;
+    margin-top: 50px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+.texto-introductorio2{
+    font-size: 2em;
+    margin-top: 50px;
+    margin-right: 80px;
+    margin-left: 80px;
+    padding-top: 50px;
+}
+
+.recomendados{
+    margin-top: 50px;
+    width: 100%;
+}
+
+.recomendados h2{
+    padding-left: 72px;
+    font-size: 3em;
+    margin-top: 50px;
+}
+
+.comicsConteinerMarvel{
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
 
-.capa-negra p{
-    color: white;
-    padding: 20px;
-    font-size: 5em;
+.leyendaViviente, .thorHulk, .punisher, .vision, .superman{
+    margin: 20px auto;
+    width: 20%;
 }
+
+.leyendaViviente img, .thorHulk img, .punisher img, .vision img{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.comicsConteinerDC{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.batman, .flash, .watchmen, .superman{
+    margin: 20px auto;
+    width: 20%;
+}
+
+.batman img, .flash img, .watchmen img, .superman img{
+    position: relative;
+    overflow: hidden;
+    width: 100%;    
+}
+
+/*Trailers*/
+.trailer{
+    margin-top: 50px;
+    width: 100%;
+}
+.trailer h2{
+    padding-left: 72px;
+    font-size: 3em;
+    margin-bottom: 50px;
+}
+.trailer-border{
+    padding: 10px;
+    border-radius: 50px;
+    margin-left: 310px;
+    margin-right: 310px;
+}
+.trailerUno{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.trailer-1, .trailer-2, .trailer-3, .trailer-4, .trailer-5, .trailer-6, .trailer-7, .trailer-8{
+    padding: 10px;
+    border-radius: 50px;
+}
+.trailerDos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 
 /*encontranos*/
 
@@ -205,33 +278,28 @@ video{
     margin-top: 50px;
     width: 100%;
 }
-.comicsConteinerNovedades{
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.paturuzu-1, .paturuzu-2, .paturuzu-3, .isidoro{
-    margin: 20px auto;
-    width: 20%;
-}
-.paturuzu-1 img, .paturuzu-2 img, .paturuzu-3 img, .isidoro img{
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-}
 .novedades-comic h2{
     padding-left: 72px;
     font-size: 3em;
     margin-bottom: 50px;
     margin-top: 50px;
 }
-
-
-
-
-
-
+.comicsConteinerNovedades{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nightwing, .superman-novedades, .green-lantern, .flash-batman, .akira-1, .akira-2, .akira-3, .akira-4, .paturuzu-1, .paturuzu-2, .paturuzu-3, .isidoro{
+    margin: 20px auto;
+    width: 20%;
+}
+.nightwing img, .superman-novedades img, .green-lantern img, .flash-batman img, .akira-1 img, .akira-2 img, 
+.akira-3 img, .akira-4 img, .paturuzu-1 img, .paturuzu-2 img, .paturuzu-3 img, .isidoro img{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
 /* footer */
 footer {
     /* position: fixed; */
