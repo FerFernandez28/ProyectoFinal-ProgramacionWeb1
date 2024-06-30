@@ -26,8 +26,6 @@ header{
     z-index: 10;
 }
 
-
-
 header .azul{
     color: #339EC7;
 }
@@ -141,4 +139,33 @@ main{
 
 video{
     width: 100%;
+}
+
+
+/*Historieta argentina nuevos*/
+
+.novedades-comic{
+    margin-top: 50px;
+    width: 100%;
+}
+.comicsConteinerNovedades{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paturuzu-1, .paturuzu-2, .paturuzu-3, .isidoro{
+    margin: 20px auto;
+    width: 20%;
+}
+.paturuzu-1 img, .paturuzu-2 img, .paturuzu-3 img, .isidoro img{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.novedades-comic h2{
+    padding-left: 72px;
+    font-size: 3em;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
