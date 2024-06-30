@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
+
+
 /* normalizer and root */
 *{
     font-family: "Bangers", system-ui;
@@ -7,15 +9,130 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 :root {
     --main-color: #fd4646;
-    --text-color: #171427;
-    --bg-color-2: #fff;
+    --text-color: #ffffff;
+    --bg-color-2: #3F71EA;
+    --bg-color-3: #33383b;
 }
-
 .body{
     background-color:#339EC7 ;
+}
+
+/*Header*/
+.bodyNosotros{
+    background-color: #000000;
+}
+
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s;
+    padding: 30px 20px;
+    z-index: 10;
+    font-family: 'Oswald', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+header .azul{
+    color: #339EC7;
+}
+
+header .rojo{
+    color: #E82A00;
+}
+
+header.abajo{
+    background:#ffffff;
+    padding: 15px 20px;
+    
+}
+
+header .logo{
+    position: relative;
+    font-weight: bold;
+    font-size: 4em;
+    letter-spacing: 2px;
+    transition: 1.5s;
+    text-decoration: none;
+}
+
+ 
+
+.logo{
+    position: relative;
+    color: white;
+    font-weight: bold;
+    font-size: 12em;
+    letter-spacing: 2px;
+    transition: 1.5s;
+    text-decoration: none;
+}
+
+.nosotrosHeader .logo{
+    color: #121212;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+header ul li{
+    list-style: none;
+}
+
+header ul li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: 0.7s;
+    color: white;
+}
+
+
+
+a:hover{
+    color: #E82A00;
+    transition: none;
+}
+
+
+header.abajo ul li a{
+    color: rgb(0, 0, 0);
+}
+
+header.abajo .blanco{
+    color: rgb(0, 0, 0);
+}
+
+.header-2{
+    background:#ffffff;
+    padding: 15px 20px;
+}
+.header-2 ul li a{
+    color: rgb(0, 0, 0);
+}
+
+video{
+    width: 100%;
 }
 
 main{
@@ -24,6 +141,7 @@ main{
     overflow: hidden;
 }
 
+/*Cómics recomendados*/
 .texto-introductorio{
     font-size: 2em;
     margin-top: 50px;
@@ -85,6 +203,8 @@ main{
     overflow: hidden;
     width: 100%;    
 }
+
+/*Trailers*/
 .trailer{
     margin-top: 50px;
     width: 100%;
@@ -99,9 +219,6 @@ main{
     border-radius: 50px;
     margin-left: 310px;
     margin-right: 310px;
-    /*border: 3px solid black;
-    width: 70%;
-    margin: 0 auto;*/
 }
 .trailerUno{
     display: flex;
@@ -117,6 +234,46 @@ main{
     align-items: center;
     justify-content: center;
 }
+
+
+
+/*encontranos*/
+
+.encontranos{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.mapa{
+    width: 80%;
+}
+
+
+.capa-negra {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Capa negra semitransparente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.capa-negra p{
+    color: white;
+    padding: 20px;
+    font-size: 5em;
+}
+
+
+/*Historieta argentina nuevos*/
+
 .novedades-comic{
     margin-top: 50px;
     width: 100%;
@@ -143,3 +300,157 @@ main{
     overflow: hidden;
     width: 100%;
 }
+/* footer */
+footer {
+    /* position: fixed; */
+    bottom: 0;
+}
+.footer-distributed {
+    background-color: black;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+}
+.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    width: 30%;
+}
+.footer-distributed h3 {
+    color: #339EC7;
+    font-size: 4em;
+    margin: 0;
+}
+.footer-distributed h3 span {
+    color: #E82A00;
+}
+
+/* Footer links */
+.footer-distributed .footer-links {
+    color: var(--text-color);
+    margin: 20px 0 12px;
+}
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+    font-size: 24px;
+}
+.footer-distributed .footer-company-name {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Center */
+.footer-distributed .footer-center {
+    width: 35%;
+}
+.footer-distributed .footer-center i {
+    background-color: var(--bg-color-3);
+    color: var(--text-color);
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: var(--text-color);
+    vertical-align: middle;
+    margin: 0;
+}
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 2;
+}
+.footer-distributed .footer-center p a {
+    color: var(--text-color);
+    text-decoration: none;
+    ;
+}
+
+/* Footer Right */
+.footer-distributed .footer-right {
+    width: 30%;
+}
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: var(--bg-color-3);
+    border-radius: 2px;
+    font-size: 20px;
+    color: var(--text-color);
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+.footer-distributed .footer-icons a:hover {
+    background-color: var(--bg-color-2);
+}
+.footer-links a:hover {
+    color: var(--bg-color-2);
+}
+
+/* mediaqueries footer */
+@media (max-height:800px) {
+    footer {
+        position: static;
+    }
+    header {
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 880px) {
+    .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+}       
