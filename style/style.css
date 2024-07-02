@@ -655,8 +655,7 @@ footer {
 }
 
 @media (max-width: 880px) {
-    .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right, 
-    .fa-map-marker, .fa-phone, .fa-envelope, .fa-facebook, .fa-instagram, .fa-linkedin, .fa-twitter, .fa-youtube {
+    .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right{
         display: block;
         width: 100%;
         margin-bottom: 40px;
