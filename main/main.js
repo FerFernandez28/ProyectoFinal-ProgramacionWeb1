@@ -1,8 +1,24 @@
+const nav = document.querySelector("#nav");
+const abrir = document.querySelector("#abrir");
+const cerrar = document.querySelector("#cerrar");
+const menuIcon = document.querySelector(".menu-icon");
+
+abrir.addEventListener("click", () => {
+    nav.classList.add("visible");
+    menuIcon.style.display = "none"; // Oculta el ícono del menú al abrirlo
+});
+
+cerrar.addEventListener("click", () => {
+    nav.classList.remove("visible");
+    menuIcon.style.display = "block"; // Muestra el ícono del menú al cerrarlo
+});
+
 window.addEventListener("scroll", function(){
     var header = this.document.querySelector("header");
     header.classList.toggle("abajo",window.scrollY>0);
 })
 
+/* Funcion formulario */
 const onClickNext = () => {
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;

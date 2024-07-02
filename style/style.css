@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
-
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 /* normalizer and root */
 *{
     font-family: "Bangers", system-ui;
@@ -67,6 +67,21 @@ header .logo{
 .nosotrosHeader .logo{
     color: var(--bg-color-4);
 }
+.menu-icon {
+    position: relative; 
+    z-index: 100; 
+    color: #fff; 
+    font-size: 1.5em;
+    cursor: pointer;
+    display: none; 
+}
+.menu-icon i {
+    pointer-events: none;
+}
+
+nav i{
+    display: none;
+}
 nav{
     display: flex;
     justify-content: center;
@@ -108,7 +123,6 @@ header.abajo .blanco{
 .header-2 ul li a{
     color: var(--bg-color-4);
 }
-
 /* main y video */
 main{
     width: 100%;
@@ -146,69 +160,68 @@ video{
     font-size: 5em;
 }
 
-/*Cómics recomendados*/
-.texto-introductorio{
+/* Cómics recomendados */
+.texto-introductorio {
     font-size: 2em;
     margin-top: 50px;
     margin-right: 80px;
     margin-left: 80px;
 }
-.texto-introductorio2{
+.texto-introductorio2 {
     font-size: 2em;
     margin-top: 50px;
     margin-right: 80px;
     margin-left: 80px;
     padding-top: 50px;
 }
-.recomendados{
+.recomendados {
     margin-top: 50px;
     width: 100%;
 }
-.recomendados h2{
+.recomendados h2 {
     padding-left: 72px;
     font-size: 3em;
     margin-top: 50px;
 }
-.comicsConteinerMarvel{
+.comicsConteinerMarvel, .comicsConteinerDC {
     margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-/*Novedades pic*/
-  .leyendoComic {
+/* Novedades pic */
+.leyendoComic {
     width: 100%;
 }
-.imgComic{
+.imgComic {
     height: 100vh;
     width: 100%;
 }
-.leyendaViviente, .thorHulk, .punisher, .vision, .superman{
-    margin: 20px auto;
-    width: 20%;
-}
-.leyendaViviente img, .thorHulk img, .punisher img, .vision img{
+.leyendaViviente img, .thorHulk img, .punisher img, .vision img,
+.batman img, .flash img, .watchmen img, .superman img {
     position: relative;
     overflow: hidden;
     width: 100%;
 }
-.comicsConteinerDC{
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-}
-.batman, .flash, .watchmen, .superman{
+/* Custom adjustments for card margins */
+.card {
     margin: 20px auto;
-    width: 20%;
+    padding: 10px;
+    box-sizing: border-box;
 }
-.batman img, .flash img, .watchmen img, .superman img{
-    position: relative;
-    overflow: hidden;
-    width: 100%;    
+
+/* Adjust card size */
+.card img {
+    max-height: 600px;
+    object-fit: cover;
 }
+
+/* Add space between cards horizontally */
+.comicsConteinerMarvel .card,
+.comicsConteinerDC .card
+,.comicsConteinerNovedades .card {
+    width: 21%;
+}
+
 
 /*novedades comics: Cómics nuevos,Mangas nuevosHistorieta, argentina nuevos*/
 .novedades-comic{
@@ -267,6 +280,7 @@ video{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 .trailer-1, .trailer-2, .trailer-3, .trailer-4, .trailer-5, .trailer-6, .trailer-7, .trailer-8{
     padding: 10px;
@@ -277,6 +291,7 @@ video{
     align-items: center;
     justify-content: center;
 }
+
 
 /*encontranos*/
 .encontranos{
@@ -295,7 +310,7 @@ video{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--bg-color-4); /* Capa negra semitransparente */
+    background-color: rgba(0, 0, 0, 0.5); 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -650,3 +665,218 @@ footer {
         margin-left: 0;
     }
 }       
+@media (max-width: 1200px) {
+    /* header */
+    header{
+        background:var(--text-color);
+        padding: 15px 20px;  
+    }
+    header ul li a{
+        color: var(--bg-color-4);
+    }
+    header .blanco{
+        color: var(--bg-color-4);
+    }
+    .carousel, .slide{
+        margin-top: 200px;
+    }
+    .comicsConteinerMarvel .card,
+    .comicsConteinerDC .card,
+    .comicsConteinerNovedades .card {
+        width: 45%; 
+        margin: 10px auto;
+    }
+    .contenido{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 65%;
+        width: 100%;
+    }
+    .videoIndex video {
+        display: none;
+    }
+    .videoIndex{
+        height: 65vh;
+    }
+    .capa-negrap {
+        font-size: 2em;
+        text-align: center;
+    }
+    /* formulario */
+    .contact__image-wrapper {
+        display: none;
+            }   
+    .contact__right-side {
+        width: 70%;
+    }
+    .trailer{
+        margin: 0 auto;
+    }
+    .trailer-border{
+        margin: 0 auto;
+    }
+    .trailerUno, .trailerDos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .trailer-1, .trailer-2, .trailer-3, .trailer-4, .trailer-5, .trailer-6, .trailer-7, .trailer-8 {
+        width: 40%;
+        margin-bottom: 20px;
+    }
+    
+    
+}
+
+@media (max-width: 750px) {
+    /* index.html */
+    /* header */
+    header{
+        background:var(--text-color);
+        padding: 15px 20px;
+        
+    }
+    header ul li a{
+        color: var(--bg-color-4);
+    }
+    header .blanco{
+        color: var(--bg-color-4);
+    }
+    /* cards */
+    .comicsConteinerMarvel .card,
+    .comicsConteinerDC .card,
+    .comicsConteinerNovedades .card {
+        width: 45%;
+        margin: 10px auto;
+    }
+    .texto-introductorio {
+        margin: 0 20px;
+    }
+    /* menu icon */
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+        color: var(--bg-color-4);
+        margin-top: 15px;
+        margin-right: -40px;
+    }
+    
+    .menu-icon i {
+        margin: 0 auto;
+        font-size: 1.5em;
+        cursor: pointer;
+    }
+    /* nav */
+    nav{
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        top: 0;
+        right: 0;
+        background-color: var(--text-color);
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
+    }
+    nav.visible{
+        opacity: 1;
+        visibility: visible;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+    }
+    nav i{
+        display: block;
+        color: var(--bg-color-4);      
+    } 
+    .contenido{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 60%;
+        width: 100%;
+    }
+    .videoIndex{
+        height: 65vh;
+    }
+    .titulo-comics{
+        margin: left;
+    }
+    /* videos */
+    .trailer-border {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .trailerUno, .trailerDos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .trailer-1, .trailer-2, .trailer-3, .trailer-4, .trailer-5, .trailer-6, .trailer-7, .trailer-8 {
+        width: 90%;
+        max-width: 400px; /* Ajuste para mantener una buena apariencia en pantallas más grandes */
+        margin-bottom: 20px;
+    }
+    /* Mostrar el menú cuando el checkbox esté marcado */
+    #menu-toggle:checked + .menu-icon i {
+        color: var(--main-color); 
+    }
+    #menu-toggle:checked + nav ul {
+        display: flex;
+        transform: translateY(0);
+    }
+    /* novedades.html */
+    .imgContainer{
+        display: none;
+    }
+    .texto-introductorio2 {
+        margin-top: 200px;
+    }
+    /* figuras html */
+    .carousel, .slide{
+        margin-top: 100px;
+    }
+    /* formulario */
+    .contact {
+        flex-direction: column;
+    }
+    .contact__image-wrapper {
+        display: none;
+        }
+    .contact__right-side {
+        width: 100%;
+    }
+    .contact__right-side h1{
+        display: none;
+    }   
+}
+
+@media (max-width: 460px) {
+    .comicsConteinerMarvel .card,
+    .comicsConteinerDC .card,
+    .comicsConteinerNovedades .card  {
+        width: 90%;
+        margin: 10px auto; 
+    }
+    /* formulario */
+    .contact {
+        flex-direction: column;
+    }
+    .contact__image-wrapper {
+        display: none;
+        }
+    .contact__right-side {
+        width: 100%;
+    }
+    .contact__right-side h1{
+        display: none;
+    }
+}
