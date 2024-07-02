@@ -22,17 +22,18 @@
 <body class="body">
 <!--Header y Nav-->
     <header>
-    <a href="" class="logo"><span class="azul">COMIC</span> 
-        <span class="rojo">VERSE</span></a>
-    <nav>
-        <ul>
-            <li><a href="#">INICIO</a></li>
-            <li><a href="novedades.html">NOVEDADES</a></li>
-            <li><a href="comics.html">CÓMICS</a></li>
-            <li><a href="figuras.html">FIGURAS</a></li>
-            <li><a href="nosotros.html">NOSOTROS</a></li>
-        </ul>
-    </nav>
+        <a href="#" class="logo"><span class="azul">COMIC</span> <span class="rojo">VERSE</span></a>
+        <div  class="menu-icon" id="abrir"><i class="bi bi-list"></i></div>
+        <nav id="nav">
+            <i class="bi bi-x-square " id="cerrar"></i>
+            <ul>
+                <li><a href="#">INICIO</a></li>
+                <li><a href="novedades.html">NOVEDADES</a></li>
+                <li><a href="comics.html">CÓMICS</a></li>
+                <li><a href="figuras.html">FIGURAS</a></li>
+                <li><a href="nosotros.html">NOSOTROS</a></li>
+            </ul>
+        </nav>
     </header>
     <!--Main-->
     <main>
@@ -50,89 +51,89 @@
         <!--Cards-->
         <article class="recomendados">
             <h2 class="titulo-comics">Algunos de nuestros cómics más recomendados...</h2>
-            <section class="comicsConteinerMarvel">
-                <div class="card text-center leyendaViviente" >
-                    <img src="./img/Capitan_America_1.jpg"  class="card-img-top" alt="..." />
+            <section class="comicsConteinerMarvel row">
+                <div class="card text-center leyendaViviente col-12 col-md-6 col-lg-3">
+                    <img src="./img/Capitan_America_1.jpg" class="card-img-top" alt="Capitan America: La leyenda viviente" />
                     <div class="card-body">
-                    <h5 class="card-title">Capitan America: La leyenda viviente</h5>
-                    <p class="card-text">
-                        Un imprescindible y gigantesco volumen que contiene las primeras
-                        aventuras del Capitán América en la actualidad, desarrolladas por el
-                        inigualable equipo creativo de Stan Lee y Jack Kirby.
-                    </p>
-                    <a href="https://www.buscalibre.com.ar/libro-capitan-america-la-leyenda-viviente/9788498856842/p/4845326" class="btn btn-primary">Comprar</a>
+                        <h5 class="card-title">Capitan America: La leyenda viviente</h5>
+                        <p class="card-text">
+                            Un imprescindible y gigantesco volumen que contiene las primeras
+                            aventuras del Capitán América en la actualidad, desarrolladas por el
+                            inigualable equipo creativo de Stan Lee y Jack Kirby.
+                        </p>
+                        <a href="https://www.buscalibre.com.ar/libro-capitan-america-la-leyenda-viviente/9788498856842/p/4845326" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
-                <div class="card text-center thorHulk" >
-                    <img src="./img/Hulk_Thor.webp"  class="card-img-top" alt="..." />
+                <div class="card text-center thorHulk col-12 col-md-6 col-lg-3">
+                    <img src="./img/Hulk_Thor.webp" class="card-img-top" alt="Hulk y Thor: campeones del universo" />
                     <div class="card-body">
-                    <h5 class="card-title">Hulk y Thor: campeones del universo</h5>
-                    <p class="card-text">
-                        ¿Quién es el más fuerte de nuestro planeta, Thor o Hulk? Nos lo hemos preguntado en muchas ocasiones, y ahora el vengador de Asgard y el Goliat Esmeralda tendrán que descubrirlo por ellos mismos.
-                    </p>
-                    <a href="https://www.crossover-comics.com/productos/colecc-100-marvel-thor-vs-hulk-campeones-del-universo/" class="btn btn-primary">Comprar</a>
+                        <h5 class="card-title">Hulk y Thor: campeones del universo</h5>
+                        <p class="card-text">
+                            ¿Quién es el más fuerte de nuestro planeta, Thor o Hulk? Nos lo hemos preguntado en muchas ocasiones, y ahora el vengador de Asgard y el Goliat Esmeralda tendrán que descubrirlo por ellos mismos.
+                        </p>
+                        <a href="https://www.crossover-comics.com/productos/colecc-100-marvel-thor-vs-hulk-campeones-del-universo/" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
-                <div class="card text-center punisher">
-                    <img src="./img/punisher-max.jpg"  class="card-img-top" alt="..." />
+                <div class="card text-center punisher col-12 col-md-6 col-lg-3">
+                    <img src="./img/punisher-max.jpg" class="card-img-top" alt="The Punisher de Garth Ennis" />
                     <div class="card-body">
-                    <h5 class="card-title">The Punisher de Garth Ennis</h5>
-                    <p class="card-text">
-                        Marvel continúa trayendo a los grandes autores que levantaron sus franquicias en nuevos proyectos, y en esta ocasión se trata nada menos que de Garth Ennis con su Punisher.
-                    </p>
-                    <a href="https://stores.comichub.com/comics_conspiracy/products/the-punisher-6" class="btn btn-primary">Comprar</a>
+                        <h5 class="card-title">The Punisher de Garth Ennis</h5>
+                        <p class="card-text">
+                            Marvel continúa trayendo a los grandes autores que levantaron sus franquicias en nuevos proyectos, y en esta ocasión se trata nada menos que de Garth Ennis con su Punisher.
+                        </p>
+                        <a href="https://stores.comichub.com/comics_conspiracy/products/the-punisher-6" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
-                <div class="card text-center vision" >
-                    <img src="./img/vision-tom-king.jpg"  class="card-img-top"  alt="..." />
+                <div class="card text-center vision col-12 col-md-6 col-lg-3">
+                    <img src="./img/vision-tom-king.jpg" class="card-img-top" alt="Vision de Tom King" />
                     <div class="card-body">
-                    <h5 class="card-title">Vision de Tom King</h5>
-                    <p class="card-text">
-                        Visión quiere ser humano. ¿Y qué hay más humano que la familia? Ahora, la tiene. Una mujer y dos hijos. Se parecen a él, tienen sus poderes y la necesidad de confundirse con los demás. ¿Qué puede ir mal?
-                    </p>
-                    <a href="https://www.mercadolibre.com.ar/la-vision-vol2-de-tom-king-editorial-panini-tapa-dura-en-espanol-2016/p/MLA25782704#searchVariation=MLA25782704&position=5&search_layout=stack&type=product&tracking_id=d14450c8-ec94-42fc-8285-942d8429fc8e" class="btn btn-primary">Comprar</a>
-                    </div>
-                </div>        
-            </section>
-            <section class="comicsConteinerDC">
-                <div class="card text-center batman" >
-                    <img src="img/batman-broma-asesina.jpg" class="card-img-top" alt="..." />
-                    <div class="card-body">
-                    <h5 class="card-title">Batman: la broma asesina</h5>
-                    <p class="card-text">
-                        Un mal día. De acuerdo con el motor de locura y caos conocido como el Joker, eso es todo lo que separa a los sanos de los psicóticos. Alan Moore y Brian Bolland asumieron hace 30 años el origen del mejor supervillano de los cómics.
-                    </p>
-                    <a href="https://www.ovnipress.net/productos/batman-la-broma-asesina/" class="btn btn-primary">Comprar</a>
+                        <h5 class="card-title">Vision de Tom King</h5>
+                        <p class="card-text">
+                            Visión quiere ser humano. ¿Y qué hay más humano que la familia? Ahora, la tiene. Una mujer y dos hijos. Se parecen a él, tienen sus poderes y la necesidad de confundirse con los demás. ¿Qué puede ir mal?
+                        </p>
+                        <a href="https://www.mercadolibre.com.ar/la-vision-vol2-de-tom-king-editorial-panini-tapa-dura-en-espanol-2016/p/MLA25782704#searchVariation=MLA25782704&position=5&search_layout=stack&type=product&tracking_id=d14450c8-ec94-42fc-8285-942d8429fc8e" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
-                <div class="card text-center flash" >
-                    <img src="img/flashpoint.jpg" class="card-img-top" alt="..." />
+            </section>          
+            <section class="comicsConteinerDC row">
+                <div class="card text-center batman col-12 col-sm-6 col-md-4 col-lg-3">
+                    <img src="img/batman-broma-asesina.jpg" class="card-img-top" alt="Batman: la broma asesina" />
                     <div class="card-body">
-                    <h5 class="card-title">Flashpoint</h5>
-                    <p class="card-text">
-                    Flash es el hombre más rápido del mundo, pero este no es su mundo. La historia ha cambiado y una nueva realidad ha reemplazado a la suya. Su madre está viva, sus seres queridos son extraños y sus amigos cercanos han cambiado, se han ido o peor.
-                    </p>
-                    <a href="https://www.ovnipress.net/productos/flashpoint-absoluto/" class="btn btn-primary">Comprar</a>
+                        <h5 class="card-title">Batman: la broma asesina</h5>
+                        <p class="card-text">
+                            Un mal día. De acuerdo con el motor de locura y caos conocido como el Joker, eso es todo lo que separa a los sanos de los psicóticos. Alan Moore y Brian Bolland asumieron hace 30 años el origen del mejor supervillano de los cómics.
+                        </p>
+                        <a href="https://www.ovnipress.net/productos/batman-la-broma-asesina/" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
-                <div class="card text-center watchmen" >
-                    <img src="img/watchmen.jpg" class="card-img-top" alt="..." />
+                <div class="card text-center flash col-12 col-sm-6 col-md-4 col-lg-3">
+                    <img src="img/flashpoint.jpg" class="card-img-top" alt="Flashpoint" />
                     <div class="card-body">
-                    <h5 class="card-title">Watchmen</h5>
-                    <p class="card-text">
-                        A mediados de los ochenta, Alan Moore y Dave Gibbons crearon WATCHMEN, cambiando el curso de la historia de los cómics. Popularmente citado como el punto donde el género de superhéroes alcanzó su madurez, ganando múltiples premios.
-                    </p>
-                    <a href="https://www.ovnipress.net/productos/watchmen1/" class="btn btn-primary">Comprar</a>
+                        <h5 class="card-title">Flashpoint</h5>
+                        <p class="card-text">
+                            Flash es el hombre más rápido del mundo, pero este no es su mundo. La historia ha cambiado y una nueva realidad ha reemplazado a la suya. Su madre está viva, sus seres queridos son extraños y sus amigos cercanos han cambiado, se han ido o peor.
+                        </p>
+                        <a href="https://www.ovnipress.net/productos/flashpoint-absoluto/" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
-                <div class="card text-center superman" >
-                    <img src="img/muerte-superman.jpg" class="card-img-top" alt="..." />
+                <div class="card text-center watchmen col-12 col-sm-6 col-md-4 col-lg-3">
+                    <img src="img/watchmen.jpg" class="card-img-top" alt="Watchmen" />
                     <div class="card-body">
-                    <h5 class="card-title">La muerte de Superman</h5>
-                    <p class="card-text">
-                        Doomsday ha aterrizado en la Tierra. La Liga de la Justicia hizo un valiente y desesperado intento por detenerlo, pero cuando la bestia se acercó a Metrópolis fue Superman quien respondió a la llamada para enfrentarlo y derrotarlo, sin saber lo que venía.
-                    </p>
-                    <a href="https://www.ovnipress.net/productos/la-muerte-de-superman1/" class="btn btn-primary">Comprar</a>
+                        <h5 class="card-title">Watchmen</h5>
+                        <p class="card-text">
+                            A mediados de los ochenta, Alan Moore y Dave Gibbons crearon WATCHMEN, cambiando el curso de la historia de los cómics. Popularmente citado como el punto donde el género de superhéroes alcanzó su madurez, ganando múltiples premios.
+                        </p>
+                        <a href="https://www.ovnipress.net/productos/watchmen1/" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+                <div class="card text-center superman col-12 col-sm-6 col-md-4 col-lg-3">
+                    <img src="img/muerte-superman.jpg" class="card-img-top" alt="La muerte de Superman" />
+                    <div class="card-body">
+                        <h5 class="card-title">La muerte de Superman</h5>
+                        <p class="card-text">
+                            Doomsday ha aterrizado en la Tierra. La Liga de la Justicia hizo un valiente y desesperado intento por detenerlo, pero cuando la bestia se acercó a Metrópolis fue Superman quien respondió a la llamada para enfrentarlo y derrotarlo, sin saber lo que venía.
+                        </p>
+                        <a href="https://www.ovnipress.net/productos/la-muerte-de-superman1/" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
             </section>

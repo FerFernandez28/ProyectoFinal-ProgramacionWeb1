@@ -19,13 +19,14 @@
 <body class="body">
     <!--Header y Nav-->
     <header>
-        <a href="" class="logo"><span class="azul">COMIC</span>
-            <span class="rojo">VERSE</span></a>
-        <nav>
+        <a href="#" class="logo"><span class="azul">COMIC</span> <span class="rojo">VERSE</span></a>
+        <div  class="menu-icon" id="abrir"><i class="bi bi-list"></i></div>
+        <nav id="nav">
+            <i class="bi bi-x-square " id="cerrar"></i>
             <ul>
                 <li><a href="index.html">INICIO</a></li>
                 <li><a href="novedades.html">NOVEDADES</a></li>
-                <li><a href="comics.html">CÓMICS</a></li>
+                <li><a href="#">CÓMICS</a></li>
                 <li><a href="figuras.html">FIGURAS</a></li>
                 <li><a href="nosotros.html">NOSOTROS</a></li>
             </ul>
@@ -46,98 +47,102 @@
         <!--Cómics cards 1-->
     <article class="novedades-comic">
         <h2 class="titulo-comics">Cómics, cómics y más cómics!!!</h2>
-        <section class="comicsConteinerNovedades">
-        <div class="card text-center nightwing" >
-            <img src="./img/nightwing.webp"  class="card-img-top" alt="..." />
-            <div class="card-body">
-            <h5 class="card-title">Nightwing: saltando a la luz</h5>
-            <a href="#" class="btn btn-primary">Comprar</a>
+        <!-- Cómics cards 1 -->
+        <section class="comicsConteinerNovedades row">
+            <div class="card text-center nightwing col-12 col-md-6 col-lg-3">
+                <img src="./img/nightwing.webp" class="card-img-top" alt="Nightwing: saltando a la luz" />
+                <div class="card-body">
+                    <h5 class="card-title">Nightwing: saltando a la luz</h5>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
             </div>
-        </div>
-        <div class="card text-center superman-novedades" >
-            <img src="./img/superman-novedades.webp"  class="card-img-top" alt="..." />
-            <div class="card-body">
-            <h5 class="card-title">Superman de Brian Michael Bendis Vol.1</h5>
-            <a href="#" class="btn btn-primary">Comprar</a>
+            <div class="card text-center superman-novedades col-12 col-md-6 col-lg-3">
+                <img src="./img/superman-novedades.webp" class="card-img-top" alt="Superman de Brian Michael Bendis Vol.1" />
+                <div class="card-body">
+                    <h5 class="card-title">Superman de Brian Michael Bendis Vol.1</h5>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
             </div>
-        </div>
-        <div class="card text-center green-lantern">
-            <img src="./img/green-lantern.webp"  class="card-img-top" alt="..." />
-            <div class="card-body">
-            <h5 class="card-title">Green lantern: ocaso esmeralda</h5>
-            <a href="#" class="btn btn-primary">Comprar</a>
+            <div class="card text-center green-lantern col-12 col-md-6 col-lg-3">
+                <img src="./img/green-lantern.webp" class="card-img-top" alt="Green lantern: ocaso esmeralda" />
+                <div class="card-body">
+                    <h5 class="card-title">Green lantern: ocaso esmeralda</h5>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
             </div>
-        </div>
-        <div class="card text-center flash-batman" >
-            <img src="./img/flash-batman.webp"  class="card-img-top"  alt="..." />
-            <div class="card-body">
-            <h5 class="card-title">Batman/Flash: el prendedor</h5>
-            <a href="#" class="btn btn-primary">Comprar</a>
+            <div class="card text-center flash-batman col-12 col-md-6 col-lg-3">
+                <img src="./img/flash-batman.webp" class="card-img-top" alt="Batman/Flash: el prendedor" />
+                <div class="card-body">
+                    <h5 class="card-title">Batman/Flash: el prendedor</h5>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
             </div>
-        </div>
-        </section> 
-        <!--Cómics cards 2-->
-        <section class="comicsConteinerNovedades">
-            <div class="card text-center sandman">
-                <img src="./img/sandman.webp" class="card-img-top" alt="..." />
+        </section>
+
+        <!-- Cómics cards 2 -->
+        <section class="comicsConteinerNovedades row">
+            <div class="card text-center sandman col-12 col-md-6 col-lg-3">
+                <img src="./img/sandman.webp" class="card-img-top" alt="Sandman Vol.01: preludios y nocturnos" />
                 <div class="card-body">
                     <h5 class="card-title">Sandman Vol.01: preludios y nocturnos</h5>
                     <a href="#" class="btn btn-primary">Comprar</a>
                 </div>
             </div>
-            <div class="card text-center sandman">
-                <img src="./img/sandman1.webp" class="card-img-top" alt="..." />
+            <div class="card text-center sandman col-12 col-md-6 col-lg-3">
+                <img src="./img/sandman1.webp" class="card-img-top" alt="Sandman Vol.04: estación de nieblas" />
                 <div class="card-body">
                     <h5 class="card-title">Sandman Vol.04: estación de nieblas</h5>
                     <a href="#" class="btn btn-primary">Comprar</a>
                 </div>
             </div>
-            <div class="card text-center sandman">
-                <img src="./img/sandman2.webp" class="card-img-top" alt="..." />
+            <div class="card text-center sandman col-12 col-md-6 col-lg-3">
+                <img src="./img/sandman2.webp" class="card-img-top" alt="Sandman Vol.05: un juego de ti" />
                 <div class="card-body">
                     <h5 class="card-title">Sandman Vol.05: un juego de ti</h5>
                     <a href="#" class="btn btn-primary">Comprar</a>
                 </div>
             </div>
-            <div class="card text-center sandman">
-                <img src="./img/sandman3.webp" class="card-img-top" alt="..." />
+            <div class="card text-center sandman col-12 col-md-6 col-lg-3">
+                <img src="./img/sandman3.webp" class="card-img-top" alt="Sandman Vol.06: fábulas y reflejos" />
                 <div class="card-body">
                     <h5 class="card-title">Sandman Vol.06: fábulas y reflejos</h5>
                     <a href="#" class="btn btn-primary">Comprar</a>
                 </div>
             </div>
         </section>
-        <!--Cómics cards 3-->
-        <section class="comicsConteinerNovedades">
-            <div class="card text-center sandman" >
-            <img src="./img/batman-robin.webp"  class="card-img-top" alt="..." />
-            <div class="card-body">
-                <h5 class="card-title">Batman: una muerte en la familia</h5>
-                <a href="#" class="btn btn-primary">Comprar</a>
+
+        <!-- Cómics cards 3 -->
+        <section class="comicsConteinerNovedades row">
+            <div class="card text-center sandman col-12 col-md-6 col-lg-3">
+                <img src="./img/batman-robin.webp" class="card-img-top" alt="Batman: una muerte en la familia" />
+                <div class="card-body">
+                    <h5 class="card-title">Batman: una muerte en la familia</h5>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
             </div>
+            <div class="card text-center sandman col-12 col-md-6 col-lg-3">
+                <img src="./img/flashpoint.jpg" class="card-img-top" alt="Flashpoint-Absoluto" />
+                <div class="card-body">
+                    <h5 class="card-title">Flashpoint-Absoluto</h5>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
             </div>
-            <div class="card text-center sandman" >
-            <img src="./img/flashpoint.jpg"  class="card-img-top" alt="..." />
-            <div class="card-body">
-                <h5 class="card-title">Flashpoint-Absoluto</h5>
-                <a href="#" class="btn btn-primary">Comprar</a>
+            <div class="card text-center sandman col-12 col-md-6 col-lg-3">
+                <img src="./img/noche-final.webp" class="card-img-top" alt="La noche final" />
+                <div class="card-body">
+                    <h5 class="card-title">La noche final</h5>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
             </div>
-            </div>
-            <div class="card text-center sandman">
-            <img src="./img/noche-final.webp"  class="card-img-top" alt="..." />
-            <div class="card-body">
-                <h5 class="card-title">La noche final</h5>
-                <a href="#" class="btn btn-primary">Comprar</a>
-            </div>
-            </div>
-            <div class="card text-center sandman" >
-            <img src="./img/superman2.webp"  class="card-img-top"  alt="..." />
-            <div class="card-body">
-                <h5 class="card-title">Superman: el hombre de acero</h5>
-                <a href="#" class="btn btn-primary">Comprar</a>
-            </div>
+            <div class="card text-center sandman col-12 col-md-6 col-lg-3">
+                <img src="./img/superman2.webp" class="card-img-top" alt="Superman: el hombre de acero" />
+                <div class="card-body">
+                    <h5 class="card-title">Superman: el hombre de acero</h5>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
             </div>
         </section>
+
     </article>
     </main>
     <footer class="footer-distributed">

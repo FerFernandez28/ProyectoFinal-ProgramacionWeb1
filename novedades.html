@@ -19,22 +19,24 @@
 <body class="body">
     <!--Header y Nav-->
     <header>
-    <a href="" class="logo"><span class="azul">COMIC</span>
-        <span class="rojo">VERSE</span></a>
-    <nav>
-        <ul>
-        <li><a href="index.html">INICIO</a></li>
-        <li><a href="novedades.html">NOVEDADES</a></li>
-        <li><a href="comics.html">CÓMICS</a></li>
-        <li><a href="figuras.html">FIGURAS</a></li>
-        <li><a href="nosotros.html">NOSOTROS</a></li>
-        </ul>
-    </nav>
+        <a href="#" class="logo"><span class="azul">COMIC</span> <span class="rojo">VERSE</span></a>
+        <div  class="menu-icon" id="abrir"><i class="bi bi-list"></i></div>
+        <nav id="nav">
+            <i class="bi bi-x-square " id="cerrar"></i>
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="#">NOVEDADES</a></li>
+                <li><a href="comics.html">CÓMICS</a></li>
+                <li><a href="figuras.html">FIGURAS</a></li>
+                <li><a href="nosotros.html">NOSOTROS</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
         <section class="leyendoComic">
             <div class="imgContainer">
-            <img class="imgComic" src="/img/leyendo.jpg" alt="Leyendo un cómic">
+                <img class="imgComic" src="/img/leyendo.jpg" alt="Leyendo un cómic">
+            </div>
         </section>
         <!--Article-->
         <article class="texto-introductorio2">
@@ -62,101 +64,101 @@
         <!--Cómics nuevos-->
         <article class="novedades-comic">
             <h2 class="titulo-comics">Últimas novedades del cómic!!!</h2>
-            <section class="comicsConteinerNovedades">
-            <div class="card text-center nightwing" >
-                <img src="./img/nightwing.webp"  class="card-img-top" alt="..." />
-                <div class="card-body">
-                <h5 class="card-title">Nightwing: saltando a la luz</h5>
-                <a href="#" class="btn btn-primary">Comprar</a>
+            <section class="comicsConteinerNovedades row">
+                <div class="card text-center nightwing col-12 col-md-6 col-lg-3">
+                    <img src="./img/nightwing.webp" class="card-img-top" alt="Nightwing: saltando a la luz" />
+                    <div class="card-body">
+                        <h5 class="card-title">Nightwing: saltando a la luz</h5>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
                 </div>
-            </div>
-            <div class="card text-center superman-novedades" >
-                <img src="./img/superman-novedades.webp"  class="card-img-top" alt="..." />
-                <div class="card-body">
-                <h5 class="card-title">Superman de Brian Michael Bendis Vol.1</h5>
-                <a href="#" class="btn btn-primary">Comprar</a>
+                <div class="card text-center superman-novedades col-12 col-md-6 col-lg-3">
+                    <img src="./img/superman-novedades.webp" class="card-img-top" alt="Superman de Brian Michael Bendis Vol.1" />
+                    <div class="card-body">
+                        <h5 class="card-title">Superman de Brian Michael Bendis Vol.1</h5>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
                 </div>
-            </div>
-            <div class="card text-center green-lantern">
-                <img src="./img/green-lantern.webp"  class="card-img-top" alt="..." />
-                <div class="card-body">
-                <h5 class="card-title">Green lantern: ocaso esmeralda</h5>
-                <a href="#" class="btn btn-primary">Comprar</a>
+                <div class="card text-center green-lantern col-12 col-md-6 col-lg-3">
+                    <img src="./img/green-lantern.webp" class="card-img-top" alt="Green lantern: ocaso esmeralda" />
+                    <div class="card-body">
+                        <h5 class="card-title">Green lantern: ocaso esmeralda</h5>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
                 </div>
-            </div>
-            <div class="card text-center flash-batman" >
-                <img src="./img/flash-batman.webp"  class="card-img-top"  alt="..." />
-                <div class="card-body">
-                <h5 class="card-title">Batman/Flash: el prendedor</h5>
-                <a href="#" class="btn btn-primary">Comprar</a>
+                <div class="card text-center flash-batman col-12 col-md-6 col-lg-3">
+                    <img src="./img/flash-batman.webp" class="card-img-top" alt="Batman/Flash: el prendedor" />
+                    <div class="card-body">
+                        <h5 class="card-title">Batman/Flash: el prendedor</h5>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
                 </div>
-            </div>
-            </section>
+            </section>       
         </article>
     <!--Mangas nuevos-->
         <article class="novedades-comic">
             <h2 class="titulo-comics">Últimas novedades del manga!!!</h2>
-            <section class="comicsConteinerNovedades">
-            <div class="card text-center akira-1" >
-                <img src="./img/akira-1.webp"  class="card-img-top" alt="..." />
-                <div class="card-body">
-                <h5 class="card-title">Akira Vol.1</h5>
-                <a href="#" class="btn btn-primary">Comprar</a>
+            <section class="comicsConteinerNovedades row">
+                <div class="card text-center akira-1 col-12 col-md-6 col-lg-3">
+                    <img src="./img/akira-1.webp" class="card-img-top" alt="Akira Vol.1" />
+                    <div class="card-body">
+                        <h5 class="card-title">Akira Vol.1</h5>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
                 </div>
-            </div>
-            <div class="card text-center akira-2" >
-                <img src="./img/akira-2.webp"  class="card-img-top" alt="..." />
-                <div class="card-body">
-                <h5 class="card-title">Akira Vol.2</h5>
-                <a href="#" class="btn btn-primary">Comprar</a>
+                <div class="card text-center akira-2 col-12 col-md-6 col-lg-3">
+                    <img src="./img/akira-2.webp" class="card-img-top" alt="Akira Vol.2" />
+                    <div class="card-body">
+                        <h5 class="card-title">Akira Vol.2</h5>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
                 </div>
-            </div>
-            <div class="card text-center akira-3">
-                <img src="./img/akira-3.webp"  class="card-img-top" alt="..." />
-                <div class="card-body">
-                <h5 class="card-title">Akira Vol.3</h5>
-                <a href="#" class="btn btn-primary">Comprar</a>
+                <div class="card text-center akira-3 col-12 col-md-6 col-lg-3">
+                    <img src="./img/akira-3.webp" class="card-img-top" alt="Akira Vol.3" />
+                    <div class="card-body">
+                        <h5 class="card-title">Akira Vol.3</h5>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
                 </div>
-            </div>
-            <div class="card text-center akira-4" >
-                <img src="./img/akira-4.webp"  class="card-img-top"  alt="..." />
-                <div class="card-body">
-                <h5 class="card-title">Akira Vol.4</h5>
-                <a href="#" class="btn btn-primary">Comprar</a>
+                <div class="card text-center akira-4 col-12 col-md-6 col-lg-3">
+                    <img src="./img/akira-4.webp" class="card-img-top" alt="Akira Vol.4" />
+                    <div class="card-body">
+                        <h5 class="card-title">Akira Vol.4</h5>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
                 </div>
-            </div>
             </section>
         </article>
         <!--Historieta argentina nuevos-->
         <article class="novedades-comic">
             <h2 class="titulo-comics">Últimas novedades de la historieta argentina!!!</h2>
-            <section class="comicsConteinerNovedades">
-                <div class="card text-center paturuzu-1" >
-                    <img src="./img/paturuzu-1.webp"  class="card-img-top" alt="..." />
+            <section class="comicsConteinerNovedades row">
+                <div class="card text-center paturuzu-1 col-12 col-md-6 col-lg-3">
+                    <img src="./img/paturuzu-1.webp" class="card-img-top" alt="Biblioteca Dante Quinterno Vol.02: Patoruzú I" />
                     <div class="card-body">
-                    <h5 class="card-title">Biblioteca Dante Quinterno Vol.02: Patoruzú I</h5>
-                    <a href="#" class="btn btn-primary">Comprar</a>
+                        <h5 class="card-title">Biblioteca Dante Quinterno Vol.02: Patoruzú I</h5>
+                        <a href="#" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
-                <div class="card text-center paturuzu-2" >
-                    <img src="./img/paturuzu-2.webp"  class="card-img-top" alt="..." />
+                <div class="card text-center paturuzu-2 col-12 col-md-6 col-lg-3">
+                    <img src="./img/paturuzu-2.webp" class="card-img-top" alt="Biblioteca Dante Quinterno Vol.06: Patoruzú II" />
                     <div class="card-body">
-                    <h5 class="card-title">Biblioteca Dante Quinterno Vol.06: Patoruzú II</h5>
-                    <a href="#" class="btn btn-primary">Comprar</a>
+                        <h5 class="card-title">Biblioteca Dante Quinterno Vol.06: Patoruzú II</h5>
+                        <a href="#" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
-                <div class="card text-center paturuzu-3">
-                    <img src="./img/paturuzu-3.webp"  class="card-img-top" alt="..." />
+                <div class="card text-center paturuzu-3 col-12 col-md-6 col-lg-3">
+                    <img src="./img/paturuzu-3.webp" class="card-img-top" alt="Biblioteca Dante Quinterno Vol.08: Patoruzú III" />
                     <div class="card-body">
-                    <h5 class="card-title">Biblioteca Dante Quinterno Vol.08: Patoruzú III</h5>
-                    <a href="#" class="btn btn-primary">Comprar</a>
+                        <h5 class="card-title">Biblioteca Dante Quinterno Vol.08: Patoruzú III</h5>
+                        <a href="#" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
-                <div class="card text-center isidoro" >
-                    <img src="./img/isidoro.webp"  class="card-img-top"  alt="..." />
+                <div class="card text-center isidoro col-12 col-md-6 col-lg-3">
+                    <img src="./img/isidoro.webp" class="card-img-top" alt="Biblioteca Dante Quinterno Vol.04: Isidoro II" />
                     <div class="card-body">
-                    <h5 class="card-title">Biblioteca Dante Quinterno Vol.04: Isidoro II</h5>
-                    <a href="#" class="btn btn-primary">Comprar</a>
+                        <h5 class="card-title">Biblioteca Dante Quinterno Vol.04: Isidoro II</h5>
+                        <a href="#" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
             </section>
