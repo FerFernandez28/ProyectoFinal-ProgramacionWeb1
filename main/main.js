@@ -37,7 +37,7 @@ const onClickNext = () => {
             Swal.fire({
                 title: "ya estas participando por un sorteo!gracias!",
                 
-                imageUrl: "../img/darth-vader-felicitandote.webp",
+                imageUrl: "./img/darth-vader-felicitandote.webp",
                 imageWidth: 400,
                 imageHeight: 400,
                 imageAlt: "Custom image"
